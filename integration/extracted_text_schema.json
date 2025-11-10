@@ -1,1 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ExtractedText",
+  "type": "object",
+  "properties": {
+    "file_name": { "type": "string" },
+    "upload_time": { "type": "string", "format": "date-time" },
+    "extracted_text": { "type": "string" },
+    "page_count": { "type": "integer" },
+    "confidence_score": { "type": "number" }
+  },
+  "required": ["file_name", "upload_time", "extracted_text"]
+}
 
