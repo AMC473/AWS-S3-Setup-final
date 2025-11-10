@@ -22,4 +22,19 @@ Initial setup for the data pipeline and upload integration.
 ---
 
 **Next Week Preview:** JSON validation, test cases, and database migration plan.
+---
+
+## Week 2: Validation & Database Prep
+
+### 1. JSON Validation
+- Created `validate_json.py` to check OCR output against `extracted_text_schema.json`.
+
+### 2. Upload Log Enhancement
+- Added `Extraction_Status` column to `upload_logs.csv`.
+
+### 3. Testing
+- Created `tests.py` for duplicate detection and upload log validation.
+
+### 4. Database Migration Plan
+- Added `database_plan.md` outlining transition from CSV to SQLite.
 
